@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import { AppBar, Box, Button, Toolbar } from '@mui/material';
+import { AppBar, Box, Link, Toolbar } from '@mui/material';
 import Image from 'next/image';
 
 const buttons = [
@@ -21,14 +21,14 @@ const Header: NextPage = () => {
         }}
       >
         <Box sx={{ ml: 7 }}>
-          <Button href="https://dynamox.net/">
+          <Link href="https://dynamox.net/" target="_blank" rel="noopener">
             <Image
               src="/images/logo-dynamox.png"
               alt="logo-dynamox"
               width={220}
               height={80}
             />
-          </Button>
+          </Link>
         </Box>
         <Box
           sx={{
@@ -38,9 +38,12 @@ const Header: NextPage = () => {
           }}
         >
           {buttons.map(({ name, to }) => (
-            <Button
+            <Link
               key={name}
               href={to ? to : `#${name.toLowerCase()}`}
+              underline="none"
+              target={to ? '_blank' : ''}
+              rel={to ? 'noopener' : ''}
               sx={{
                 color: 'text.primary',
                 transition: 'transform 0.5s ease-out',
@@ -50,7 +53,7 @@ const Header: NextPage = () => {
               }}
             >
               {name}
-            </Button>
+            </Link>
           ))}
         </Box>
       </Toolbar>
