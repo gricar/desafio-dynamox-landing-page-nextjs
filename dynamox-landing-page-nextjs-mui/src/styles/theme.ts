@@ -22,6 +22,21 @@ const theme = createTheme({
     fontSize: 20,
     fontWeightRegular: 400,
     fontWeightBold: 700,
+    button: {
+      textTransform: 'none',
+    },
+  },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: `
+        @font-face {
+          font-family: 'Raleway';
+          font-style: normal;
+          font-display: swap;
+          font-weight: 400;
+        }
+      `,
+    },
   },
 });
 
