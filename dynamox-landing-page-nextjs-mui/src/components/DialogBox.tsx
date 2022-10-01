@@ -1,4 +1,5 @@
 import {
+  Alert,
   Avatar,
   Dialog,
   DialogTitle,
@@ -6,6 +7,7 @@ import {
   ListItemAvatar,
   ListItem,
   ListItemText,
+  Snackbar,
 } from '@mui/material';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import EmailIcon from '@mui/icons-material/Email';
@@ -14,7 +16,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 export interface DialogBoxProps {
   open: boolean;
-  onClose: (value: string) => void;
+  onClose: () => void;
   userData: {
     userName: string;
     userCompany: string;
@@ -72,6 +74,18 @@ const DialogBox: React.FC<DialogBoxProps> = ({ onClose, open, userData }) => {
           <ListItemText primary={userPhone} sx={{ color: 'text.secondary' }} />
         </ListItem>
       </List>
+      <Snackbar
+        anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+        open={open}
+        color="sucess"
+        autoHideDuration={5000}
+        onClose={onClose}
+        message="I love snacks"
+      >
+        <Alert severity="success" sx={{ width: '100%' }}>
+          Dados enviados com sucesso!
+        </Alert>
+      </Snackbar>
     </Dialog>
   );
 };
