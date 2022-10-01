@@ -75,6 +75,7 @@ const Contato: NextPage = () => {
             label="Como gostaria de ser chamado?"
             type="text"
             variant="filled"
+            sx={{ borderRadius: '8px' }}
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />
@@ -83,6 +84,7 @@ const Contato: NextPage = () => {
             label="Em qual empresa você trabalha?"
             type="text"
             variant="filled"
+            sx={{ borderRadius: '8px' }}
             value={userCompany}
             onChange={(e) => setUserCompany(e.target.value)}
           />
@@ -91,6 +93,7 @@ const Contato: NextPage = () => {
             label="Digite aqui o seu email"
             type="email"
             variant="filled"
+            sx={{ borderRadius: '8px' }}
             value={userEmail}
             onChange={(e) => setUserEmail(e.target.value)}
           />
@@ -99,6 +102,7 @@ const Contato: NextPage = () => {
             label="Qual o seu telefone?"
             type="tel"
             variant="filled"
+            sx={{ borderRadius: '8px' }}
             value={userPhone}
             onChange={(e) => setUserPhone(e.target.value)}
           />
