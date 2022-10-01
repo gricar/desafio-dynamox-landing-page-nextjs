@@ -60,6 +60,10 @@ const Sensores: NextPage = () => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
+              transition: 'transform 1s ease-in-out',
+              ':hover': {
+                transform: 'scale(1.1, 1.1)',
+              },
             }}
           >
             <Image

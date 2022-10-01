@@ -41,7 +41,13 @@ const Header: NextPage = () => {
             <Button
               key={name}
               href={to ? to : `#${name.toLowerCase()}`}
-              sx={{ color: 'text.primary' }}
+              sx={{
+                color: 'text.primary',
+                transition: 'transform 0.5s ease-out',
+                ':hover': {
+                  transform: 'scale(1.01, 1.01)',
+                },
+              }}
             >
               {name}
             </Button>
