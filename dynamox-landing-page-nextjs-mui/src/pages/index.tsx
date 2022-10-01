@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Contato from '../components/Contato';
 import Header from '../components/Header';
 import Inicio from '../components/Inicio';
 import Sensores from '../components/Sensores';
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <Header />
       <Inicio />
       <Sensores />
+      <Contato />
     </div>
   );
 };
