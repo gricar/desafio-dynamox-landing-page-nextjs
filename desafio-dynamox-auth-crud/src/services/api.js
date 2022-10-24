@@ -17,4 +17,28 @@ export const validateLogin = async ({ email, password }) => {
   }
 };
 
+export const getAll = async () => {
+  try {
+    const response = await api.get('/products');
+    if (response.status === 200) {
+      return response.data;
+    }
+    return response.statusText;
+  } catch (err) {
+    throw new Error(err.message);
+  }
+};
+
+export const deleteItem = async (itemId) => {
+  try {
+    const response = await api.delete(`/produtos/${itemId}`);
+    if (response.status === 200) {
+      return response.data;
+    }
+    return response.statusText;
+  } catch (err) {
+    throw new Error(err.message);
+  }
+};
+
 export default api;
