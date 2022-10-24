@@ -8,6 +8,7 @@ import {
   TableContainer,
   TableHead,
   TableRow,
+  Tooltip,
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
@@ -22,7 +23,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: indigo[400],
     color: theme.palette.common.white,
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: 700,
   },
   [`&.${tableCellClasses.body}`]: { fontSize: 14 },
@@ -54,7 +55,7 @@ const ProductTable = ({ rows }) => {
   };
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 700 }}>
+      <Table size="small" sx={{ minWidth: 700 }}>
         <TableHead>
           <TableRow>
             <StyledTableCell align="center">Nome</StyledTableCell>
@@ -77,7 +78,7 @@ const ProductTable = ({ rows }) => {
               produtoPerecivel,
             }) => (
               <StyledTableRow key={id}>
-                <StyledTableCell align="center">{nome}</StyledTableCell>
+                <StyledTableCell>{nome}</StyledTableCell>
                 <StyledTableCell align="center">
                   {dataDeFabricacao}
                 </StyledTableCell>
@@ -91,17 +92,24 @@ const ProductTable = ({ rows }) => {
                   {`R$ ${preco}`}
                 </StyledTableCell>
                 <StyledTableCell align="center">
-                  <IconButton aria-label="edit" onClick={() => handleEdit(id)}>
-                    <EditIcon />
-                  </IconButton>
+                  <Tooltip title="Editar" placement="right" arrow>
+                    <IconButton
+                      aria-label="edit"
+                      onClick={() => handleEdit(id)}
+                    >
+                      <EditIcon />
+                    </IconButton>
+                  </Tooltip>
                 </StyledTableCell>
                 <StyledTableCell align="center">
-                  <IconButton
-                    aria-label="delete"
-                    onClick={() => handleDelete(id)}
-                  >
-                    <DeleteIcon />
-                  </IconButton>
+                  <Tooltip title="Remover" placement="right" arrow>
+                    <IconButton
+                      aria-label="delete"
+                      onClick={() => handleDelete(id)}
+                    >
+                      <DeleteIcon />
+                    </IconButton>
+                  </Tooltip>
                 </StyledTableCell>
               </StyledTableRow>
             ),

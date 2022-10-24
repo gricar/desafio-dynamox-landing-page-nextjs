@@ -4,7 +4,7 @@ import HomeIcon from '@mui/icons-material/Home';
 
 const GoToHome = () => (
   <Link to="/" style={{ textDecoration: 'none' }}>
-    <Button style={{ marginBottom: 15 }} startIcon={<HomeIcon />}>
+    <Button style={{ mb: 6 }} startIcon={<HomeIcon />}>
       Voltar para página principal
     </Button>
   </Link>
