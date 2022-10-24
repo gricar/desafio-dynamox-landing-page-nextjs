@@ -31,7 +31,7 @@ export const getAll = async () => {
 
 export const createProduct = async (product) => {
   try {
-    const newProduct = await api.post('/produtos', product);
+    const newProduct = await api.post('/products', product);
     return newProduct;
   } catch (err) {
     throw new Error(err.message);
@@ -40,7 +40,7 @@ export const createProduct = async (product) => {
 
 export const deleteItem = async (itemId) => {
   try {
-    const response = await api.delete(`/produtos/${itemId}`);
+    const response = await api.delete(`/products/${itemId}`);
     if (response.status === 200) {
       return response.data;
     }
@@ -52,7 +52,7 @@ export const deleteItem = async (itemId) => {
 
 export const editItem = async (itemId, product) => {
   try {
-    const response = await api.put(`/produtos/${itemId}`, product);
+    const response = await api.put(`/products/${itemId}`, product);
     if (response.status === 200) {
       return response.data;
     }
