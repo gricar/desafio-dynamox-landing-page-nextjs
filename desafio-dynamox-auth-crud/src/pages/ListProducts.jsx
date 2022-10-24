@@ -24,6 +24,7 @@ const ListProducts = () => {
 
   return (
     <div>
+      <GoToHome />
       <Container>
         {!produtos ? (
           <h2>Loading...</h2>
@@ -36,7 +37,6 @@ const ListProducts = () => {
           currentPage={currentPage}
         />
       </Container>
-      <GoToHome />
     </div>
   );
 };
