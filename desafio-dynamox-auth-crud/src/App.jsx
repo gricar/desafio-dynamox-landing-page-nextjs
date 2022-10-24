@@ -1,5 +1,5 @@
-function App() {
-  return <div>Dynamox</div>;
-}
+import Router from './routes';
+
+const App = () => <Router />;
 
 export default App;
