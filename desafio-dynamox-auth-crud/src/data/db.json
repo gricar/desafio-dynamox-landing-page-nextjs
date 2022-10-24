@@ -1,0 +1,411 @@
+{
+	"products": [
+		{
+			"id": "460dd238-0b6b-410a-bc16-7b4f83a5343d",
+			"nome": "Ergonômico Congelado Salada",
+			"dataDeFabricacao": "27/09/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "21/08/2023",
+			"preco": "29.00"
+		},
+		{
+			"id": "0d378559-9336-43fb-b090-0d594fbc03eb",
+			"nome": "Fantástico Fresco Mouse",
+			"dataDeFabricacao": "11/12/2021",
+			"produtoPerecivel": true,
+			"dataDeValidade": "18/06/2023",
+			"preco": "186.00"
+		},
+		{
+			"id": "0b0014b9-f86f-4709-98b2-e78ab233ddb4",
+			"nome": "Feito à mão Madeira Teclado",
+			"dataDeFabricacao": "05/08/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "24/06/2023",
+			"preco": "193.00"
+		},
+		{
+			"id": "0c8499a4-2753-44a5-946c-b5aff0fcdb69",
+			"nome": "Prático Granito Mesa",
+			"dataDeFabricacao": "05/01/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "01/06/2023",
+			"preco": "288.00"
+		},
+		{
+			"id": "d2a860de-4778-4551-88a0-2f5120bf8221",
+			"nome": "Inteligente Madeira Camiseta",
+			"dataDeFabricacao": "01/01/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "10/09/2023",
+			"preco": "409.00"
+		},
+		{
+			"id": "a73bfa8a-57f5-4cbb-88fd-d4c717c6e98a",
+			"nome": "Inteligente Algodão Carro",
+			"dataDeFabricacao": "10/07/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "23/05/2023",
+			"preco": "931.00"
+		},
+		{
+			"id": "e5a52b18-857b-49c5-b507-29df30d7d35c",
+			"nome": "Incrível Macio Salsicha",
+			"dataDeFabricacao": "16/04/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "10/11/2022",
+			"preco": "599.00"
+		},
+		{
+			"id": "d1bdf226-5de2-4998-b46c-fb1ef1110495",
+			"nome": "Refinado Borracha Luvas",
+			"dataDeFabricacao": "21/10/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "29/12/2022",
+			"preco": "987.00"
+		},
+		{
+			"id": "abc76a7a-954b-4acc-b2cc-a4f4a5d1a105",
+			"nome": "Pequeno Macio Mesa",
+			"dataDeFabricacao": "04/12/2021",
+			"produtoPerecivel": false,
+			"dataDeValidade": "16/11/2022",
+			"preco": "421.00"
+		},
+		{
+			"id": "0c6c18ae-bb57-46a0-bd24-7b8b44f1f60f",
+			"nome": "Genérico Borracha Camiseta",
+			"dataDeFabricacao": "13/06/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "03/12/2022",
+			"preco": "740.00"
+		},
+		{
+			"id": "f44d4955-b04d-49c7-ae86-390962bd3f7b",
+			"nome": "Gostoso Concreto Sabonete",
+			"dataDeFabricacao": "23/04/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "06/06/2023",
+			"preco": "898.00"
+		},
+		{
+			"id": "4e5d92f7-b0e9-4875-9a3d-9d584efadc5c",
+			"nome": "Lustroso Plástico Toalhas",
+			"dataDeFabricacao": "02/09/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "04/08/2023",
+			"preco": "71.00"
+		},
+		{
+			"id": "a024e07b-9ba2-4710-9e94-de31bc2bd3bf",
+			"nome": "Gostoso Concreto Frango",
+			"dataDeFabricacao": "17/05/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "12/01/2023",
+			"preco": "82.00"
+		},
+		{
+			"id": "f77a8f4e-dc96-44a2-8e2d-6e1cd05d22a0",
+			"nome": "Lindo Madeira Sapatos",
+			"dataDeFabricacao": "23/06/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "16/04/2023",
+			"preco": "957.00"
+		},
+		{
+			"id": "1137651e-e457-418c-bb1a-1577e27d9550",
+			"nome": "Sem marca Granito Peixe",
+			"dataDeFabricacao": "20/10/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "29/07/2023",
+			"preco": "140.00"
+		},
+		{
+			"id": "5ae071af-f808-4d0b-a950-2bcd9db79a49",
+			"nome": "Refinado Congelado Calças",
+			"dataDeFabricacao": "07/07/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "18/06/2023",
+			"preco": "152.00"
+		},
+		{
+			"id": "d82fae64-f066-43de-b632-6160d9c5d433",
+			"nome": "Lindo Madeira Frango",
+			"dataDeFabricacao": "08/05/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "11/02/2023",
+			"preco": "258.00"
+		},
+		{
+			"id": "b5ab404e-751c-47ab-81ff-81c8c5849c64",
+			"nome": "Genérico Borracha Pizza",
+			"dataDeFabricacao": "13/10/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "19/11/2022",
+			"preco": "733.00"
+		},
+		{
+			"id": "d6d7180a-e08a-40e5-83bc-cb5e20383a61",
+			"nome": "Gostoso Concreto Carro",
+			"dataDeFabricacao": "14/10/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "25/10/2022",
+			"preco": "909.00"
+		},
+		{
+			"id": "85924d25-ba30-409a-af14-7e4c4b1f1c1e",
+			"nome": "Licenciado Borracha Queijo",
+			"dataDeFabricacao": "03/03/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "29/10/2022",
+			"preco": "85.00"
+		},
+		{
+			"id": "5703a531-b9c2-4357-97c3-65fb87fd147e",
+			"nome": "Lindo Madeira Cadeira",
+			"dataDeFabricacao": "15/03/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "29/04/2023",
+			"preco": "305.00"
+		},
+		{
+			"id": "a0a004a8-e0a8-4233-8a59-ba3019b7f505",
+			"nome": "Impressionante Concreto Peixe",
+			"dataDeFabricacao": "20/01/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "18/08/2023",
+			"preco": "121.00"
+		},
+		{
+			"id": "10e15f75-b71b-4934-b1a4-0d302928de63",
+			"nome": "Ergonômico Plástico Luvas",
+			"dataDeFabricacao": "23/11/2021",
+			"produtoPerecivel": false,
+			"dataDeValidade": "19/04/2023",
+			"preco": "911.00"
+		},
+		{
+			"id": "0c751881-2128-4a1a-ad0a-21a44f1f2226",
+			"nome": "Incrível Fresco Toalhas",
+			"dataDeFabricacao": "12/03/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "26/02/2023",
+			"preco": "246.00"
+		},
+		{
+			"id": "f7725299-822f-4ede-9609-b54928347565",
+			"nome": "Incrível Granito Toalhas",
+			"dataDeFabricacao": "25/08/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "31/08/2023",
+			"preco": "101.00"
+		},
+		{
+			"id": "882aea74-303d-4fcf-b8e7-51660aa7fc70",
+			"nome": "Sem marca Macio Toalhas",
+			"dataDeFabricacao": "07/09/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "27/04/2023",
+			"preco": "139.00"
+		},
+		{
+			"id": "b13e2cc6-ba98-4cf6-88a0-659b41497920",
+			"nome": "Licenciado Macio Atum",
+			"dataDeFabricacao": "07/11/2021",
+			"produtoPerecivel": false,
+			"dataDeValidade": "28/11/2022",
+			"preco": "264.00"
+		},
+		{
+			"id": "4d7a3dff-465e-4459-8cd0-1db69c6d333e",
+			"nome": "Lindo Aço Luvas",
+			"dataDeFabricacao": "08/05/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "05/11/2022",
+			"preco": "927.00"
+		},
+		{
+			"id": "f1083080-2d52-4af2-8d47-31f7adf30546",
+			"nome": "Lustroso Plástico Salsicha",
+			"dataDeFabricacao": "26/10/2021",
+			"produtoPerecivel": false,
+			"dataDeValidade": "20/03/2023",
+			"preco": "469.00"
+		},
+		{
+			"id": "976720ec-04ae-42a8-8977-65811e595aba",
+			"nome": "Genérico Madeira Cadeira",
+			"dataDeFabricacao": "15/08/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "24/11/2022",
+			"preco": "350.00"
+		},
+		{
+			"id": "b0906e08-5f19-4daf-976b-10da89ebfa84",
+			"nome": "Inteligente Aço Cadeira",
+			"dataDeFabricacao": "20/07/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "11/10/2023",
+			"preco": "157.00"
+		},
+		{
+			"id": "e518b00d-86da-4ae9-899c-3c55e43368c6",
+			"nome": "Incrível Algodão Salgadinhos",
+			"dataDeFabricacao": "16/08/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "09/07/2023",
+			"preco": "810.00"
+		},
+		{
+			"id": "789811eb-b52b-4d7c-8c3e-a226ecfd0ee1",
+			"nome": "Refinado Metal Bola",
+			"dataDeFabricacao": "26/09/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "04/08/2023",
+			"preco": "485.00"
+		},
+		{
+			"id": "5207a2ce-1256-4f85-a406-033d72d86902",
+			"nome": "Prático Macio Mesa",
+			"dataDeFabricacao": "04/05/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "12/09/2023",
+			"preco": "731.00"
+		},
+		{
+			"id": "cb7117fe-8e25-4b8b-af92-271ec83366cd",
+			"nome": "Fantástico Congelado Camiseta",
+			"dataDeFabricacao": "31/08/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "17/02/2023",
+			"preco": "333.00"
+		},
+		{
+			"id": "e456c048-0488-47cb-ba58-2f62b1bee6d7",
+			"nome": "Sem marca Concreto Bacon",
+			"dataDeFabricacao": "24/09/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "09/01/2023",
+			"preco": "672.00"
+		},
+		{
+			"id": "42d88eb0-aa24-435d-b4c4-56c2ee7a242e",
+			"nome": "Fantástico Plástico Sabonete",
+			"dataDeFabricacao": "24/02/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "12/04/2023",
+			"preco": "166.00"
+		},
+		{
+			"id": "9a023f62-63f5-4506-8581-9269f7593266",
+			"nome": "Incrível Fresco Atum",
+			"dataDeFabricacao": "01/12/2021",
+			"produtoPerecivel": true,
+			"dataDeValidade": "04/05/2023",
+			"preco": "688.00"
+		},
+		{
+			"id": "26594e27-e571-4d32-aef7-9858863fabf7",
+			"nome": "Gostoso Algodão Sapatos",
+			"dataDeFabricacao": "25/08/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "22/12/2022",
+			"preco": "977.00"
+		},
+		{
+			"id": "90d84bf7-3b03-407a-9e0b-c60837af77fc",
+			"nome": "Fantástico Algodão Teclado",
+			"dataDeFabricacao": "03/03/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "13/07/2023",
+			"preco": "704.00"
+		},
+		{
+			"id": "c72f4493-0ee1-449b-a60c-6497fb5fb49b",
+			"nome": "Lindo Aço Computador",
+			"dataDeFabricacao": "12/12/2021",
+			"produtoPerecivel": false,
+			"dataDeValidade": "23/03/2023",
+			"preco": "817.00"
+		},
+		{
+			"id": "cba96b0e-45f2-4fb4-ad9c-5b41df53396c",
+			"nome": "Feito à mão Fresco Camiseta",
+			"dataDeFabricacao": "17/12/2021",
+			"produtoPerecivel": true,
+			"dataDeValidade": "05/05/2023",
+			"preco": "279.00"
+		},
+		{
+			"id": "a473b6b4-2ea5-4229-9a02-da55a71975a7",
+			"nome": "Lustroso Aço Salada",
+			"dataDeFabricacao": "27/10/2021",
+			"produtoPerecivel": false,
+			"dataDeValidade": "20/12/2022",
+			"preco": "561.00"
+		},
+		{
+			"id": "39e85f97-6ca3-4b49-a7ad-13e4f77faae9",
+			"nome": "Impressionante Fresco Toalhas",
+			"dataDeFabricacao": "26/02/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "05/09/2023",
+			"preco": "973.00"
+		},
+		{
+			"id": "f350f0fd-3055-4a61-b3e4-71f5c0258ec7",
+			"nome": "Fantástico Concreto Frango",
+			"dataDeFabricacao": "09/01/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "11/06/2023",
+			"preco": "683.00"
+		},
+		{
+			"id": "c8559136-aaf3-42d8-9434-d6954eb6a024",
+			"nome": "Sem marca Metal Chapéu",
+			"dataDeFabricacao": "12/12/2021",
+			"produtoPerecivel": true,
+			"dataDeValidade": "05/09/2023",
+			"preco": "940.00"
+		},
+		{
+			"id": "7db871c2-47f0-463b-b8db-731c32a44db4",
+			"nome": "Gostoso Concreto Frango",
+			"dataDeFabricacao": "19/02/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "16/10/2023",
+			"preco": "918.00"
+		},
+		{
+			"id": "0f8503c9-b254-4cb5-ade1-18c82e937e72",
+			"nome": "Prático Plástico Carro",
+			"dataDeFabricacao": "19/10/2022",
+			"produtoPerecivel": true,
+			"dataDeValidade": "10/11/2022",
+			"preco": "532.00"
+		},
+		{
+			"id": "c049dc03-1481-4c35-af1c-ceb64b9ddf28",
+			"nome": "Feito à mão Plástico Bicicleta",
+			"dataDeFabricacao": "18/12/2021",
+			"produtoPerecivel": false,
+			"dataDeValidade": "15/12/2022",
+			"preco": "483.00"
+		},
+		{
+			"id": "7c383545-59bf-4403-b01e-2be505a45fd7",
+			"nome": "Rústico Concreto Peixe",
+			"dataDeFabricacao": "23/04/2022",
+			"produtoPerecivel": false,
+			"dataDeValidade": "04/04/2023",
+			"preco": "580.00"
+		}
+	],
+	"users": [
+		{
+			"email": "student@betrybe.com",
+			"password": "$user#pass*",
+			"accessToken": "mockToken"
+		}
+	]
+}
